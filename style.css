@@ -1,0 +1,120 @@
+@charset "UTF-8";
+* { 
+  margin: 0; 
+  padding: 0; 
+
+  list-style: none; 
+
+  text-decoration: none; 
+} 
+ 
+#wrap { 
+
+  width: 84%; 
+  max-width: 1280px; 
+
+  margin: 0 auto; 
+
+} 
+
+header { 
+	background: #606060;
+color: #FFF; 
+
+  padding: 20px;	
+} 
+ 
+.main-menu { 
+  background: #4f7a28; 
+} 
+ .main-menu ul { 
+  display: flex; 
+} 
+
+.main-menu ul li {
+/*	width: 20%;*/
+}
+ .main-menu ul li a { 
+
+  color: #FFF; 
+
+  display: block; 
+
+  padding: 10px 20px; 
+
+} 
+
+.gnavi__list {
+  position: relative;
+}
+
+ .main-menu ul.dropdown__lists {
+    display: none;/*デフォルトでは非表示の状態にしておく*/
+    width: 200px;
+    position: absolute;
+/*    top: 60px;*/
+	left: 0;
+	background:#000;
+}
+.gnavi__list:hover .dropdown__lists {
+    display: block;/*Gナビメニューにホバーしたら表示*/
+}
+
+.dropdown__lists {
+	display: block;
+}
+
+.main-menu ul li a:hover { 
+
+  background: #222; 
+
+} 
+main { 
+  display: flex; 
+} 
+
+section { 
+	background: #f3d2c1; 
+	flex: 3;
+padding: 20px;
+} 
+ 
+article { 
+	background: #fef6e4; 
+	  padding: 20px; 
+
+  margin-bottom: 20px; 
+} 
+ 
+aside { 
+	background: #fef6e4;
+   flex: 1;	
+} 
+ 
+.sub-menu { 
+	background: #999; 
+} 
+ .sub-menu ul li a { 
+
+  color: #FFF; 
+
+  display: block; 
+
+  padding: 10px 20px; 
+
+} 
+
+ 
+
+.sub-menu ul li a:hover { 
+
+  background: #666; 
+
+} 
+footer { 
+	background: #333; 
+	  color: #FFF; 
+
+  padding: 20px; 
+  text-align: center; 
+} 
